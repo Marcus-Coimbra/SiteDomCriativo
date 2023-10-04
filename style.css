@@ -1,0 +1,116 @@
+/* Reset de estilos */
+body, h1, h2, h3, p, ul, li, form, input, textarea, button {
+    margin: 0vw;
+    padding: 0vh;
+    box-sizing: border-box;
+  }
+  /* Estilos para telas pequenas (por exemplo, dispositivos móveis) */
+@media screen and (max-width: 600px) {
+  /* Modificar o estilo do cabeçalho */
+  header {
+    text-align: center;
+  }
+  
+  /* Modificar o estilo dos destinos */
+  .destino {
+    float: none;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Ajustar o tamanho da imagem */
+  .destino img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Aumentar o tamanho da fonte para melhor legibilidade em telas menores */
+  h3, p {
+    font-size: 1.2rem;
+  }
+}
+
+/* Estilos para telas maiores (por exemplo, desktops) */
+@media screen and (min-width: 601px) {
+  /* Restaurar estilos padrão para cabeçalho */
+  header {
+    text-align: left;
+  }
+  
+  /* Restaurar estilos padrão para destinos */
+  .destino {
+    float: left;
+    text-align: justify;
+    margin-right: 20px;
+  }
+  
+  /* Restaurar tamanho da imagem padrão */
+  .destino img {
+    width: 225px;
+    height: auto;
+  }
+  
+  /* Restaurar tamanho da fonte padrão */
+  h3, p {
+    font-size: 1rem;
+  }
+}
+  /* Estilos gerais */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  section {
+    padding: 50px;
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .destino {
+    margin-bottom: 30px;
+  }
+  
+  .destino img {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  form input, form textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  form button {
+    padding: 10px 20px
+  }
+
+  .conte {
+    text-align: center;
+    padding: 10px;
+  }
